@@ -1,0 +1,7 @@
+# message before restart (MiniMessage supported)
+# {0} is a delay/20
+restart-msg: 'Restart hui penis {0}'
+# delay in ticks
+restart-delay: 600
+# command makes restart
+restart-cmd: stop

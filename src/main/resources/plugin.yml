@@ -1,0 +1,17 @@
+name: 'InkwellRestart'
+version: '$plugin_version'
+main: 'io.inkwellmc.restart.RestartPlugin'
+api-version: '1.20'
+authors: ['sub-kek']
+commands:
+  inkwellrestart:
+    usage: '/inkwellrestart <reload|make>'
+permissions:
+  inkwellrestart.*:
+    children:
+      inkwellrestart.command.make: true
+      inkwellrestart.command.reload: true
+  inkwellrestart.command.make:
+    default: op
+  inkwellrestart.command.reload:
+    default: op
