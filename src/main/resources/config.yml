@@ -1,6 +1,11 @@
-# message before restart (MiniMessage supported)
+# messages before restart (MiniMessage supported)
 # {0} is a delay/20
-restart-msg: 'Restart hui penis {0}'
+# '' to disable message
+restart-msg:
+  title: '<gradient:white:#fc9803>Restart'
+  sub-title: '<gradient:white:#fc9803> in {0} sec'
+  action-bar: '<gradient:white:#fc9803>Restart soon check chat'
+  chat: '<gradient:white:#fc9803>Restart in {0} seconds'
 # delay in ticks
 restart-delay: 600
 # command makes restart
